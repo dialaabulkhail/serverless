@@ -7,10 +7,8 @@ class handler(BaseHTTPRequestHandler):
     self.send_response(200)
     self.send_header('Content-type', 'text/plain')
     self.end_headers()
-    def ran():
-        return "test"
-    ran()
-    self.wfile.write(ran().encode())
+    x = [i*2 for i in range(50)]
+    self.wfile.write(x.encode())
     return
 
 

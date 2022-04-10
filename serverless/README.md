@@ -11,6 +11,7 @@ class handler(BaseHTTPRequestHandler):
     self.wfile.write(str(datetime.now().strftime('%Y-%m-%d %H:%M:%S')).encode())
     return
 
+- make changes to the code.
 - create a repo on github without any files
 - git remote add origin...
 - change branch form mastr to main --> git branch -m main
@@ -20,6 +21,4 @@ class handler(BaseHTTPRequestHandler):
 - choose the repo -> import
 - click on diploy
 - go to dashboard
-- add (/api/date) to the link
-
-- now you can make changes to vs code 
+- add (/api/double) to the link
