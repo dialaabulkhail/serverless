@@ -1,7 +1,7 @@
 from ast import parse
 from http.server import BaseHTTPRequestHandler
 from platform import platform
-from urllib.parse import urlparse
+from urllib.parse import parse
 import platform
 
 
