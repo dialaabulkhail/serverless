@@ -10,5 +10,5 @@ class handler(BaseHTTPRequestHandler):
     self.send_response(200)
     self.send_header('Content-type', 'text/plain')
     self.end_headers()
-    self.wfile.write(f"Greetings from python version {platform.python_version()}".encode())
+    self.wfile.write("Greetings from python".encode())
     return
