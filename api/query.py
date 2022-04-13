@@ -49,9 +49,7 @@ class handler(BaseHTTPRequestHandler):
       if i["name"] == name:
         message = f"Data of {name} is: {i}"
         return message
-    
-    else:
-        message = "Hello, Welcome {name}"
+  
 
 
     self.send_response(200)
@@ -59,3 +57,9 @@ class handler(BaseHTTPRequestHandler):
     self.end_headers()
     self.wfile.write(message.encode())
     return
+
+
+if __name__ == "__main__":
+
+      
+
